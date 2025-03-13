@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'login_screen.dart'; 
+import 'login_screen.dart';
+import 'eeg_screen_dart.dart'; // Import the EEG screen
 
 void main() {
   runApp(const BrainifyApp());
@@ -19,7 +20,7 @@ class BrainifyApp extends StatelessWidget {
           seedColor: const Color(0xFF15162B),
           brightness: Brightness.light,
         ),
-        fontFamily: 'Roboto',
+        fontFamily: 'Inter',
         useMaterial3: true,
       ),
       home: const BrainifyLoginScreen(),
