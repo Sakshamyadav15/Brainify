@@ -57,7 +57,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/brain_image_1.png
-    - assets/images/brain_image_2.webp
+    - assets/images/brain_image_2.jpg
     - assets/images/google_logo.png
     - assets/EEG_Data.csv
   

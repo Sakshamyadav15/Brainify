@@ -43,14 +43,14 @@ class BrainifyLoginScreen extends StatelessWidget {
                       ),
                       Positioned(
                         left: 260,
-                        top: 366,
+                        top: 300, // Changed from 366 to 300
                         child: Container(
                           width: 420,
                           height: 420,
                           decoration: ShapeDecoration(
                             image: DecorationImage(
                               image: AssetImage(
-                                "assets/images/brain_image_2.webp",
+                                "assets/images/brain_image_2.jpg",
                               ),
                               fit: BoxFit.fill,
                             ),
