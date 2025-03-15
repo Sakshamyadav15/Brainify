@@ -7,7 +7,7 @@ void main() {
 }
 
 class BrainifyApp extends StatelessWidget {
-  const BrainifyApp({Key? key}) : super(key: key);
+  const BrainifyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'eeg_screen_dart.dart';
 
 class BrainifyLoginScreen extends StatelessWidget {
-  const BrainifyLoginScreen({Key? key}) : super(key: key);
+  const BrainifyLoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
